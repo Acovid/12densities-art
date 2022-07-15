@@ -1,0 +1,772 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:56:12
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.21                                |7.4.24
+OS__________________: Darwin                                |Linux
+CREATED_____________: 2021-12-10 02:49:11
+WP VERSION__________: 5.8.2
+DUP VERSION_________: 1.4.3
+DB__________________: 5.7.34
+DB TABLES___________: 50
+DB ROWS_____________: 7,855
+DB FILE SIZE________: 15.3MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.24 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/home/c12den44/public_html/ArtGallery"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://12densities.com/ArtGallery/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/c12den44/public_html/ArtGallery/20211210_12dArt_DEV_[HASH]_20211210024911_archive.zip"
+SIZE________________: 246.52MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/c12den44/public_html/ArtGallery/20211210_12dArt_DEV_[HASH]_20211210024911_archive.zip"
+SIZE________________: 246.52MBFile timestamp set to Current: 2021-12-10 02:56:59
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 02:56:59 - RUNTIME: 47.0717 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (28000/1045): Access denied for user 'aco'@'localhost' (using password: YES) [CODE:2|FILE:/home/c12den44/public_html/ArtGallery/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'aco'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (28000/1045): Access denied for user 'acovid'@'localhost' (using password: YES) [CODE:2|FILE:/home/c12den44/public_html/ArtGallery/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'acovid'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 03:12:32
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.31 -- Build Server: 5.7.34
+FILE SIZE:	dup-database__[HASH].sql (7.8MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/c12den44/public_html/ArtGallery/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	49
+RENAMED TABLES:	0
+QUERIES RAN:	7274
+
+wp_actionscheduler_actions: (242)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (4)
+wp_actionscheduler_logs: (716)
+wp_commentmeta: (0)
+wp_comments: (11)
+wp_duplicator_packages: (0)
+wp_e_submissions: (0)
+wp_e_submissions_actions_log: (0)
+wp_e_submissions_values: (0)
+wp_links: (0)
+wp_mailchimp_carts: (0)
+wp_mailchimp_jobs: (0)
+wp_options: (481)
+wp_postmeta: (4250)
+wp_posts: (612)
+wp_term_relationships: (160)
+wp_term_taxonomy: (44)
+wp_termmeta: (22)
+wp_terms: (44)
+wp_usermeta: (153)
+wp_users: (3)
+wp_wc_admin_note_actions: (71)
+wp_wc_admin_notes: (66)
+wp_wc_category_lookup: (2)
+wp_wc_customer_lookup: (1)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (12)
+wp_wc_order_stats: (10)
+wp_wc_order_tax_lookup: (2)
+wp_wc_product_meta_lookup: (19)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (6)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (144)
+wp_woocommerce_order_items: (18)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (27)
+wp_woocommerce_shipping_zone_methods: (10)
+wp_woocommerce_shipping_zones: (5)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (1)
+wp_wpforms_tasks_meta: (8)
+Removed '74' cache/transient rows
+
+INSERT DATA RUNTIME: 2.2199 sec.
+STEP-2 COMPLETE @ 03:12:34 - RUNTIME: 2.2388 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:13:21
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "12d Art"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/Applications/MAMP/htdocs/12d-art"
+path_new______________: "/home/c12den44/public_html/Art"
+siteurl_______________: "https://12densities.com/Art"
+url_old_______________: "http://localhost:8888/12d-art"
+url_new_______________: "https://12densities.com/Art"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:   242][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   716][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailchimp_carts"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailchimp_jobs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   481][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  4250][PG:   2][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   612][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   160][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   153][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    66][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:   144][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:    27][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2F12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  4:"\Applications\MAMP\htdocs\12d-art" ===============> "/home/c12den44/public_html/Art"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\12d-art" ===========> "\/home\/c12den44\/public_html\/Art"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5C12d-art" =======> "%2Fhome%2Fc12den44%2Fpublic_html%2FArt"
+	SEARCH  7:"//localhost:8888/12d-art" ========================> "//12densities.com/Art"
+	SEARCH  8:"\/\/localhost:8888\/12d-art" =====================> "\/\/12densities.com\/Art"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F12d-art" ================> "%2F%2F12densities.com%2FArt"
+	SEARCH 10:"http://12densities.com/Art" ======================> "https://12densities.com/Art"
+	SEARCH 11:"http:\/\/12densities.com\/Art" ===================> "https:\/\/12densities.com\/Art"
+	SEARCH 12:"http%3A%2F%2F12densities.com%2FArt" ==============> "https%3A%2F%2F12densities.com%2FArt"
+--------------------------------------
+SCANNED:	Tables:50 	|	 Rows:7147 	|	 Cells:44794 
+UPDATED:	Tables:4 	|	 Rows:661 	|	 Cells:820 
+ERRORS:		0 
+RUNTIME:	0.462900 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 03:13:22 - RUNTIME: 0.4852 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

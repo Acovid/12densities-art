@@ -1,0 +1,6 @@
+*.log
+*.old
+*.zip
+
+# configuration file with passwords
+wp-config.php
